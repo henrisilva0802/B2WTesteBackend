@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+    db:
+        image: mysql
+        command: --default-authentication-plugin=mysql_native_password
+        container_name: mysql-container
+        environment:
+            MYSQL_ROOT_PASSWORD: 123456
+        volumes: [
+            ./db/data:/var/lib/mysql
+            ]
+    api:
+        image: api-image
+        build: "./api"
+        container_name: api-container
+        volumes: [
+            "./api:/home/spring/app"
+        ]
+        

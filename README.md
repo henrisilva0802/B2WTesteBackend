@@ -12,7 +12,7 @@ http://localhost:9876/api/*
 Acessar os arquivos **CargoController.java** e **TrilhaController.java**
 para ver as regras da API e endpoints.
 
-Quaisquer dúvidas ou problemas, favor entrar em contato:
-Email: henriarasilva@gmail.com
-WhatsApp: +55 19 983116452
+<br />Quaisquer dúvidas ou problemas, favor entrar em contato:
+<br />Email: henriarasilva@gmail.com
+<br />WhatsApp: +55 19 983116452
 Henrique de Araújo Silva

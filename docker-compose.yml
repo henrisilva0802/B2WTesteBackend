@@ -19,4 +19,4 @@ services:
         volumes: 
             - "./api:/home/spring/app"
         depends_on: 
-            - db     
+            - db

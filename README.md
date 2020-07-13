@@ -15,4 +15,4 @@ para ver as regras da API e endpoints.
 <br />Quaisquer dúvidas ou problemas, favor entrar em contato:
 <br />Email: henriarasilva@gmail.com
 <br />WhatsApp: +55 19 983116452
-Henrique de Araújo Silva
+<br />Henrique de Araújo Silva

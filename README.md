@@ -1,7 +1,7 @@
 
 # B2WTesteBackend
 
-Para rodar no **Ubuntu**:
+Para rodar:
  1. git clone https://github.com/henriaraujo/B2WTesteBackend.git
  2. cd B2WTesteBackend
  3. sudo docker-compose up (na pasta raiz do projeto)

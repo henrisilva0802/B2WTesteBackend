@@ -6,14 +6,16 @@ services:
         container_name: mysql-container
         environment:
             MYSQL_ROOT_PASSWORD: 123456
-        volumes: [
-            ./db/data:/var/lib/mysql
-            ]
+        volumes: 
+            - ./db/data:/var/lib/mysql
+        container_name: dbdesafio
+            
     api:
         image: api-image
         build: "./api"
+        ports: [9876:8080]
         container_name: api-container
-        volumes: [
-            "./api:/home/spring/app"
-        ]
-        
+        volumes: 
+            - "./api:/home/spring/app"
+        depends_on: 
+            - db     
